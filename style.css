@@ -1,0 +1,111 @@
+*,*::before,*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: #0c0c2bff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+}
+.wrapper{
+    aspect-ratio: 1/1;
+    width: min(400px,100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.nft_image_wrapper{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.nft_image{
+    height: 100%;
+    width: 100%;
+
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    transform: translate(50%,-50%);
+    background-color: #0c0c2bff;
+}
+.loader{
+    display: block;
+    animation: loader 2s infinite linear;
+    filter: drop-shadow(0 0 6px #4fdfc2);
+}
+.form{
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+.input_heading{
+    color: #fff;
+}
+.ipfs_link{
+    height: 40px;
+    width: 100%;
+    padding: 0 0.3rem;
+    border-radius: 10px;
+}
+.view_nft{
+    height: 50px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    background: linear-gradient(to top left,#1c7cb8,#4fdfc2);
+    cursor: pointer;
+    color: #fff;
+}
+.view_nft:active{
+    transform: scale(0.97);
+}
+.telegram_logo{
+    width: 25px;
+}
+.telegram_link{
+    border-radius: 10px;
+    width: 100%;
+    text-decoration: none;
+    border: 2px solid #4fdfc2;
+    color: #fff;
+    padding: 0.6rem 0;
+    text-align: center;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.telegram_link:active{
+    transform: scale(0.97);
+}
+@keyframes loader {
+    100%{
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>IPFS Viewer</title>
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="nft_image_wrapper">
+                <div class="overlay">
+                    <img src="loader.svg" alt="" class="loader">
+                </div>
+                <div class="nft_image_container">
+                    <img src="logo.png" alt="" class="nft_image" onerror="onError()">
+                </div>
+            </div>
+            <form action="#" class="form">
+            <h4 class="input_heading">IPFS link :</h4>
+            <input type="text" class="ipfs_link" placeholder="e.g. ipfs://khzkshvjshvfvvvsvbsjsjhcshc/13.jpg" required>
+            <button type="submit" class="view_nft">View NFT</button>
+            <a href="https://t.me/ipfs_viewer_bot" class="telegram_link" target="_blank"><img src="telegram.svg" alt="Telegram logo" class="telegram_logo"> Telegram Bot</a>
+            </form>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

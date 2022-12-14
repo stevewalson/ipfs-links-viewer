@@ -1,0 +1,14 @@
+<svg width="200" height="200" version="1.1" viewBox="0 0 52.917 52.917" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient849" x1="72.571" x2="142.5" y1="43.089" y2="145.14" gradientTransform="matrix(.53076 0 0 .53076 -32.953 -51.785)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient855"/>
+  <linearGradient id="linearGradient855">
+   <stop style="stop-color:#1bddbd" offset="0"/>
+   <stop style="stop-color:#5fbeff" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient863" x1="56.813" x2="152.96" y1="21.923" y2="157.24" gradientTransform="matrix(.53076 0 0 .53076 -32.953 -51.785)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient855"/>
+ </defs>
+ <g transform="matrix(.68938 0 0 .68938 12.388 28.413)">
+  <path d="m20.411 23.065-22.43-12.95-7e-7 -25.9 22.43-12.95 22.43 12.95v25.9z" style="fill:url(#linearGradient849);stroke-width:1.6294"/>
+  <path d="m20.411 30.347-28.736-16.591-9e-7 -33.181 28.736-16.591 28.736 16.591 1e-6 33.181z" style="fill:none;stroke-width:2.9898;stroke:url(#linearGradient863)"/>
+ </g>
+</svg>
